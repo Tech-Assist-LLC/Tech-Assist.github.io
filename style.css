@@ -1,0 +1,130 @@
+/* C&P from cyptian*/
+
+/*===================
+     base css (should act as defualt style?)
+=====================*/
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	color: burlywood;
+    overflow-x: scroll;
+    position: relative;
+    /* Background */
+    background-image: url('Assets/Grass%20Backround.jpg');
+    background-color:rgba(0, 0, 149, 0.70);
+    background-blend-mode:multiply;
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    height: 100svh;
+    width: inherit;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+h1{
+    color: forestgreen;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Dancing Script';
+}
+h3{
+    padding: 0;
+    margin: 0;
+    color: cadetblue;
+}
+.page {
+    margin: 5%;
+}
+
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: circle;
+}
+
+/*===================
+     header css
+=====================*/
+
+/*===================
+     bCard
+=====================*/
+.contactBox {
+    left: -36%;
+    width: 40%;
+    top: 30vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    background-color: brown;
+    border-radius: 0 2vw 2vw 0;
+    transition: transform 1s ease-in-out;
+}
+.contactBox:hover {
+    transition: 1.5s ease;
+    transform: translateX(81.5%);
+}
+
+.contactInfo {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: left;
+    left: 0%;
+    margin 0px;
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.8svw;
+    min-height: inherit;
+    bottom: 0;
+    max-height: 0;
+    white-space: nowrap;
+}
+
+.bCard {
+    max-width: 95%;
+    position: relative;
+    margin-left: 7%;
+    z-index: 2;
+    margin-bottom: -7px;
+    margin-right: -5px;
+    
+}
+.bCard:hover {
+
+ /*Text: call now? */
+}
+
+    
+/*===================
+     bCard
+=====================*/
+.scope {
+    
+}
+/*===================
+     Footer css
+=====================*/
+footer {
+    color: white;
+    font-size: .5em;
+    column-count: 3;    
+}
+
+a:link {
+    color: aqua;
+}
